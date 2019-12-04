@@ -11,18 +11,18 @@ int main()
 	{
 		char name[32];
 		char passwd[32];
-		printf("ÇëÊäÈëÓÃ»§Ãû#:\n");
+		printf("è¯·è¾“å…¥ç”¨æˆ·å#:\n");
 		scanf("%s", &name);
-		printf("ÇëÊäÈëÃÜÂë#:\n");
+		printf("è¯·è¾“å…¥å¯†ç #:\n");
 		scanf("%s", &passwd);
 		if (strcmp(USER, name) == 0 && strcmp(PSD, passwd) == 0)
 		{
-			printf("µÇÂ½³É¹¦\n");
+			printf("ç™»é™†æˆåŠŸ\n");
 			break;
 		}
 		else
 		{
-			printf("ÓÃ»§Ãû»î×ÅÃÜÂëÊäÈë´íÎó,ÇëÖØĞÂÊäÈë:\n");
+			printf("ç”¨æˆ·åè´¦å·å¯†ç è¾“å…¥é”™è¯¯,è¯·é‡æ–°è¾“å…¥:\n");
 		}
 	}
 	system("pause");
