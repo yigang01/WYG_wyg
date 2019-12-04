@@ -1,17 +1,16 @@
 #include<stdio.h>
-#include<windows.h>
 #include<assert.h>
-#pragma warning(disable:4996)
+#include<windows.h>
 int Mystrcat(char *a, char *b)
 {
 	assert(a != NULL);
 	assert(b != NULL);
 	char *dp = a;
-	while (*dp != NULL)
+	while (*dp != '\0')
 	{
 		dp++;
 	}
-	while (*b != NULL)
+	while (*b != '\0')
 	{
 		*dp++ = *b++;
 	}
@@ -19,7 +18,7 @@ int Mystrcat(char *a, char *b)
 }
 int main()
 {
-	char a[16] = "I love";
+	char a[16] = "I love ";
 	char b[16] = "you";
 	Mystrcat(a, b);
 	printf("%s", a);
