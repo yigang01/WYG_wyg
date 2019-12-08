@@ -25,7 +25,7 @@ void play(int a[],int num)
 		}
 		if (left > right)
 		{
-			printf("ур╡╩╣╫!!!\n");
+			printf("Ф┴╬Д╦█Е┬╟!!!\n");
 		}
 	}
 }
