@@ -22,7 +22,7 @@ int main()
 {
 	int A = 0;
 	int B = 0;
-	printf("Çë·Ö±ğÊäÈëAºÍBµÄÖµ:\n");
+	printf("è¯·åˆ†åˆ«è¾“å…¥Aå’ŒBçš„å€¼:\n");
 	scanf("%d %d", &A, &B);
 	Small_Public(A, B);
 	printf("%d", Small_Public(A, B));
