@@ -1,0 +1,4 @@
+FRIST=-ljsoncpp -lcurl -lcrypto
+INCLUDE=-IspeechK
+jarvis:jarvis.cc
+	g++ $^ -o $@ $(INCLUDE) $(FRIST)  -std=c++11 -g
